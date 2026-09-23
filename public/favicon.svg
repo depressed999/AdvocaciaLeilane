@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#08131F" />
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#B9904A" stroke-width="1.2" stroke-opacity="0.6" />
+  <g transform="translate(11, 10) scale(0.26)">
+    <!-- Base -->
+    <path d="M 50,154 C 65,154 75,151 90,146 L 93,144 C 95,140 96,136 96,128 L 96,30 L 104,30 L 104,128 C 104,136 105,140 107,144 L 110,146 C 125,151 135,154 150,154 L 150,158 L 50,158 Z" fill="#D2AC63" />
+    <!-- Finial -->
+    <polygon points="100,2 105,12 100,18 95,12" fill="#D2AC63" />
+    <circle cx="100" cy="22" r="4.5" fill="#D2AC63" />
+    <!-- Beam -->
+    <path d="M 33,36 C 55,27 80,26 100,28 C 120,26 145,27 167,36 C 164,41 142,32 100,34 C 58,32 36,41 33,36 Z" fill="#D2AC63" />
+    <!-- Left Scale -->
+    <line x1="33" y1="36" x2="8" y2="108" stroke="#D2AC63" stroke-width="2" />
+    <line x1="33" y1="36" x2="58" y2="108" stroke="#D2AC63" stroke-width="2" />
+    <path d="M 5,108 C 10,122 56,122 61,108 Z" fill="#D2AC63" />
+    <!-- Right Scale -->
+    <line x1="167" y1="36" x2="142" y2="108" stroke="#D2AC63" stroke-width="2" />
+    <line x1="167" y1="36" x2="192" y2="108" stroke="#D2AC63" stroke-width="2" />
+    <path d="M 139,108 C 144,122 190,122 195,108 Z" fill="#D2AC63" />
+  </g>
+</svg>

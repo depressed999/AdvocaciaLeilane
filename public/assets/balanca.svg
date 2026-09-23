@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none" class="balanca-icon" role="img" aria-label="Balança da Justiça">
+  <defs>
+    <linearGradient id="goldBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C988" />
+      <stop offset="50%" stop-color="#B9904A" />
+      <stop offset="100%" stop-color="#D2AC63" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Pedestal / Base -->
+  <path d="M 50,154 C 65,154 75,151 90,146 L 93,144 C 95,140 96,136 96,128 L 96,30 L 104,30 L 104,128 C 104,136 105,140 107,144 L 110,146 C 125,151 135,154 150,154 L 150,158 L 50,158 Z" fill="url(#goldBeam)" />
+
+  <!-- Top Finial -->
+  <polygon points="100,2 105,12 100,18 95,12" fill="url(#goldBeam)" />
+  <circle cx="100" cy="22" r="4.5" fill="url(#goldBeam)" />
+
+  <!-- Arched Crossbeam with Elegant End Curls -->
+  <path d="M 28,34 C 28,28 34,24 40,26 C 45,28 47,33 44,37 C 41,40 37,39 36,36 C 36,34 38,33 39,34 C 38,36 36,36 35,35 C 33,32 37,28 41,29 C 48,31 46,40 38,40 C 32,40 28,36 28,34 Z" fill="url(#goldBeam)" />
+  <path d="M 172,34 C 172,28 166,24 160,26 C 155,28 153,33 156,37 C 159,40 163,39 164,36 C 164,34 162,33 161,34 C 162,36 164,36 165,35 C 167,32 163,28 159,29 C 152,31 154,40 162,40 C 168,40 172,36 172,34 Z" fill="url(#goldBeam)" />
+  <path d="M 33,36 C 55,27 80,26 100,28 C 120,26 145,27 167,36 C 164,41 142,32 100,34 C 58,32 36,41 33,36 Z" fill="url(#goldBeam)" />
+
+  <!-- Left Scale Pan & Strings -->
+  <line x1="33" y1="36" x2="8" y2="108" stroke="#B9904A" stroke-width="1.2" stroke-opacity="0.9" />
+  <line x1="33" y1="36" x2="58" y2="108" stroke="#B9904A" stroke-width="1.2" stroke-opacity="0.9" />
+  <path d="M 5,108 C 10,122 56,122 61,108 Z" fill="url(#goldBeam)" />
+
+  <!-- Right Scale Pan & Strings -->
+  <line x1="167" y1="36" x2="142" y2="108" stroke="#B9904A" stroke-width="1.2" stroke-opacity="0.9" />
+  <line x1="167" y1="36" x2="192" y2="108" stroke="#B9904A" stroke-width="1.2" stroke-opacity="0.9" />
+  <path d="M 139,108 C 144,122 190,122 195,108 Z" fill="url(#goldBeam)" />
+</svg>

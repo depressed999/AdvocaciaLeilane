@@ -1,0 +1,147 @@
+# ==============================================================================
+# 1. DADOS SIGILOSOS, CREDENCIAIS E VARIÁVEIS DE AMBIENTE (CRÍTICO)
+# ==============================================================================
+# Variáveis de ambiente com chaves de API, senhas ou segredos
+.env
+.env.*
+!.env.example
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Chaves privadas, certificados SSL/TLS e credenciais
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+*.crt
+*.cert
+*.cer
+*.der
+*.id_rsa
+id_rsa*
+id_ed25519*
+*.keystore
+*.jks
+
+# Arquivos de autenticação, tokens e contas de serviço
+credentials.json
+client_secret*.json
+token.json
+tokens.json
+*.token
+auth/
+secrets/
+secret.*
+*secrets*
+
+# Configurações de gerenciador de pacotes que podem conter tokens de autorização
+.npmrc
+.yarnrc
+
+# ==============================================================================
+# 2. DEPENDÊNCIAS
+# ==============================================================================
+node_modules/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ==============================================================================
+# 3. BUILD, COMPILAÇÃO E PRODUÇÃO
+# ==============================================================================
+dist/
+dist-ssr/
+build/
+out/
+.cache/
+.parcel-cache/
+.turbo/
+*.local
+
+# ==============================================================================
+# 4. TESTES, RELATÓRIOS E AUDITORIAS AUTOMATIZADAS
+# ==============================================================================
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Cobertura de código
+coverage/
+*.lcov
+.nyc_output/
+
+# Auditorias (Lighthouse / Performance)
+lighthouse_report.json
+*lighthouse*.json
+*lighthouse*.html
+
+# ==============================================================================
+# 5. LOGS E DEBUG
+# ==============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================================================================
+# 6. SISTEMA OPERACIONAL E ARQUIVOS TEMPORÁRIOS
+# ==============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+
+# Linux / Temporários de backup
+*.bak
+*.tmp
+*.temp
+*~
+*.sw?
+*.swo
+*.swn
+
+# ==============================================================================
+# 7. EDITORES E IDES
+# ==============================================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-*
+
+# ==============================================================================
+# 8. PYTHON (SCRIPTS AUXILIARES)
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/

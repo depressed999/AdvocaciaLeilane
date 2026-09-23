@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" fill="none" class="brazil-map-svg" role="img" aria-label="Mapa do Brasil com destaque para atuação jurídica em todo o território nacional e inscrições na OAB Rondônia e Santa Catarina">
+  <defs>
+    <linearGradient id="mapGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D2AC63" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#B9904A" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#08131F" stop-opacity="0.03" />
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D2AC63" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#B9904A" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#8A6B32" stop-opacity="0.35" />
+    </linearGradient>
+    <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Elementos de bússola e coordenadas sutis -->
+  <circle cx="300" cy="310" r="260" stroke="#B9904A" stroke-opacity="0.08" stroke-dasharray="4 8" />
+  <circle cx="300" cy="310" r="180" stroke="#B9904A" stroke-opacity="0.05" />
+  <line x1="300" y1="40" x2="300" y2="580" stroke="#B9904A" stroke-opacity="0.06" stroke-dasharray="2 6" />
+  <line x1="40" y1="310" x2="560" y2="310" stroke="#B9904A" stroke-opacity="0.06" stroke-dasharray="2 6" />
+
+  <!-- Silhueta Vetorial Estilizada e Elegante do Território Brasileiro -->
+  <path d="M 210,65 
+           C 245,55 270,50 305,62 
+           C 340,74 365,95 395,102 
+           C 425,110 460,118 495,138 
+           C 525,155 550,180 560,212 
+           C 568,245 552,275 538,300 
+           C 522,325 492,345 478,372 
+           C 462,398 445,428 428,458 
+           C 410,488 388,520 365,550 
+           C 342,580 320,600 298,595 
+           C 282,590 275,565 270,540 
+           C 262,510 250,480 236,450 
+           C 218,410 192,380 168,350 
+           C 142,320 112,295 88,265 
+           C 62,235 46,205 50,175 
+           C 54,145 78,125 108,105 
+           C 138,85 175,75 210,65 Z"
+        fill="url(#mapGlow)" 
+        stroke="url(#strokeGrad)" 
+        stroke-width="1.8" />
+
+  <!-- Linhas estruturais sutis de integração nacional -->
+  <path d="M 210,65 C 240,165 285,245 335,305" stroke="#B9904A" stroke-opacity="0.12" stroke-dasharray="3 5" fill="none" />
+  <path d="M 305,62 C 345,185 395,265 478,372" stroke="#B9904A" stroke-opacity="0.10" stroke-dasharray="3 5" fill="none" />
+  <path d="M 168,350 C 250,340 340,350 428,458" stroke="#B9904A" stroke-opacity="0.10" stroke-dasharray="3 5" fill="none" />
+
+  <!-- Arcos Conectores Dourados Demonstrando Atuação Remota/Digital em Tribunais -->
+  <!-- Conexão Rondônia -> Santa Catarina -->
+  <path d="M 180,260 Q 235,395 320,530" stroke="#D2AC63" stroke-width="1.6" stroke-opacity="0.65" stroke-dasharray="5 5" fill="none" class="pulse-line" />
+  <!-- Conexão Rondônia -> Tribunais Superiores (Brasília) -->
+  <path d="M 180,260 Q 260,265 340,285" stroke="#D2AC63" stroke-width="1.2" stroke-opacity="0.45" stroke-dasharray="3 4" fill="none" />
+  <!-- Conexão Santa Catarina -> Sudeste / Tribunais -->
+  <path d="M 320,530 Q 365,475 410,430" stroke="#D2AC63" stroke-width="1.2" stroke-opacity="0.45" stroke-dasharray="3 4" fill="none" />
+  <!-- Conexão Brasília -> Nordeste -->
+  <path d="M 340,285 Q 430,225 515,220" stroke="#D2AC63" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="3 4" fill="none" />
+
+  <!-- Polos e Tribunais Conectados Digitalmente -->
+  <!-- Brasília / STF / STJ / TST -->
+  <g class="tribunal-node">
+    <circle cx="340" cy="285" r="4.5" fill="#D2AC63" fill-opacity="0.85" />
+    <circle cx="340" cy="285" r="9" stroke="#D2AC63" stroke-opacity="0.25" fill="none" />
+    <text x="352" y="289" fill="#D7D7D4" font-family="'Inter', sans-serif" font-size="10" font-weight="500" letter-spacing="0.4">Tribunais Superiores</text>
+  </g>
+
+  <!-- São Paulo / Rio de Janeiro -->
+  <circle cx="395" cy="445" r="3.5" fill="#D2AC63" fill-opacity="0.6" />
+  <circle cx="425" cy="430" r="3.5" fill="#D2AC63" fill-opacity="0.6" />
+
+  <!-- Região Nordeste -->
+  <circle cx="485" cy="280" r="3.5" fill="#D2AC63" fill-opacity="0.5" />
+  <circle cx="515" cy="220" r="3.5" fill="#D2AC63" fill-opacity="0.5" />
+
+  <!-- Região Norte -->
+  <circle cx="210" cy="150" r="3.5" fill="#D2AC63" fill-opacity="0.5" />
+
+  <!-- DESTAQUE PRINCIPAL 1: RONDÔNIA (OAB/RO 11028) -->
+  <g class="map-highlight ro-highlight">
+    <circle cx="180" cy="260" r="22" stroke="#D2AC63" stroke-opacity="0.15" stroke-width="1" fill="none" />
+    <circle cx="180" cy="260" r="13" stroke="#D2AC63" stroke-opacity="0.45" stroke-width="1.5" fill="none" />
+    <circle cx="180" cy="260" r="6" fill="#D2AC63" filter="url(#goldGlow)" />
+    
+    <!-- Tag com inscrição oficial -->
+    <g transform="translate(68, 225)">
+      <rect width="98" height="26" rx="4" fill="#08131F" stroke="#B9904A" stroke-width="1.2" />
+      <text x="49" y="17" fill="#F7F4EE" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.6">OAB/RO 11028</text>
+    </g>
+  </g>
+
+  <!-- DESTAQUE PRINCIPAL 2: SANTA CATARINA (OAB/SC 67136-A) -->
+  <g class="map-highlight sc-highlight">
+    <circle cx="320" cy="530" r="22" stroke="#D2AC63" stroke-opacity="0.15" stroke-width="1" fill="none" />
+    <circle cx="320" cy="530" r="13" stroke="#D2AC63" stroke-opacity="0.45" stroke-width="1.5" fill="none" />
+    <circle cx="320" cy="530" r="6" fill="#D2AC63" filter="url(#goldGlow)" />
+    
+    <!-- Tag com inscrição oficial -->
+    <g transform="translate(340, 517)">
+      <rect width="112" height="26" rx="4" fill="#08131F" stroke="#B9904A" stroke-width="1.2" />
+      <text x="56" y="17" fill="#F7F4EE" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" letter-spacing="0.6">OAB/SC 67136-A</text>
+    </g>
+  </g>
+</svg>
