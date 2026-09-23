@@ -1826,9 +1826,10 @@ button, input, textarea, select {
 
 .footer-top-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1.2fr;
-  gap: clamp(2rem, 5vw, 4rem);
-  margin-bottom: 4rem;
+  grid-template-columns: 1fr 1.3fr;
+  gap: clamp(2.5rem, 6vw, 5rem);
+  max-width: 720px;
+  margin-bottom: 3.5rem;
 }
 
 .footer-brand-col {
@@ -2125,10 +2126,6 @@ button, input, textarea, select {
   .footer-top-grid {
     grid-template-columns: 1fr 1fr;
   }
-
-  .footer-brand-col {
-    grid-column: span 2;
-  }
 }
 
 @media (max-width: 840px) {
@@ -2304,10 +2301,7 @@ button, input, textarea, select {
 
   .footer-top-grid {
     grid-template-columns: 1fr;
-  }
-
-  .footer-brand-col {
-    grid-column: span 1;
+    gap: 2.2rem;
   }
 
   .footer-bottom {
