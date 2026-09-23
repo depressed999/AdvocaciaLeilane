@@ -323,6 +323,7 @@ button, input, textarea, select {
 }
 
 .btn-icon-svg,
+.btn svg,
 .btn i.fa-brands,
 .btn i.fa-solid {
   width: 18px;
@@ -1543,6 +1544,7 @@ button, input, textarea, select {
   align-items: center;
   justify-content: center;
   line-height: 1;
+  fill: currentColor;
 }
 
 .channel-label {
@@ -1942,6 +1944,7 @@ button, input, textarea, select {
   align-items: center;
   justify-content: center;
   line-height: 1;
+  fill: currentColor;
 }
 
 .footer-bottom {
