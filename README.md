@@ -6,19 +6,19 @@ O projeto foi concebido para transmitir **seriedade, confiança, sofisticação,
 
 ---
 
-## 📑 Documentação do Projeto
+## Documentação do Projeto
 
 Antes de realizar qualquer alteração ou manutenção no projeto, consulte a documentação detalhada:
 
-1. 📋 [Requisitos Gerais](./requisitos.md) — Diretrizes de negócio, escopo e regras fundamentais.
-2. 🎨 [Identidade Visual](./docs/identidade-visual.md) — Paleta de cores oficial, tipografia, símbolo e diretrizes de design.
-3. ⚖️ [Conteúdo e Canais](./docs/conteudo.md) — Textos canônicos, áreas de atuação, OABs, contatos e conformidade ética.
-4. 📂 [Referências Visuais](./docs/referencias.md) — Relação dos materiais originais e ativos derivados.
-5. 🤖 [Instruções para Agentes IA](./AGENTS.md) — Regras de preservação da marca e prioridades documentais.
+1. [Requisitos Gerais](./requisitos.md) — Diretrizes de negócio, escopo e regras fundamentais.
+2. [Identidade Visual](./docs/identidade-visual.md) — Paleta de cores oficial, tipografia, símbolo e diretrizes de design.
+3. [Conteúdo e Canais](./docs/conteudo.md) — Textos canônicos, áreas de atuação, OABs, contatos e conformidade ética.
+4. [Referências Visuais](./docs/referencias.md) — Relação dos materiais originais e ativos derivados.
+5. [Instruções para Agentes IA](./AGENTS.md) — Regras de preservação da marca e prioridades documentais.
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 O repositório está organizado nas seguintes pastas e arquivos:
 
@@ -62,7 +62,7 @@ Site_LeilaneAdv/
 
 ---
 
-## 🎨 Identidade Visual e Design System
+## Identidade Visual e Design System
 
 - **Paleta de Cores Oficial:**
   - Azul-marinho Principal: `#08131F`
@@ -78,7 +78,7 @@ Site_LeilaneAdv/
 
 ---
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 - Node.js (versão 18 ou superior)
@@ -121,7 +121,7 @@ Site_LeilaneAdv/
 
 ---
 
-## ⚖️ Conformidade Ética e Deontológica (OAB)
+## Conformidade Ética e Deontológica (OAB)
 
 Este projeto foi construído em observância estrita às normas do **Código de Ética e Disciplina da OAB** e do **Provimento nº 205/2021**:
 - O conteúdo é puramente informativo, transparente e sóbrio;
@@ -131,6 +131,6 @@ Este projeto foi construído em observância estrita às normas do **Código de 
 
 ---
 
-## 📄 Licença e Direitos
+## Licença e Direitos
 © Criado por Alliky Rodrigo
 © 2026 Dra. Leilane dos Santos. Todos os direitos reservados.
