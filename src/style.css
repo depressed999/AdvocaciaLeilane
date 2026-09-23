@@ -1879,8 +1879,10 @@ button, input, textarea, select {
 }
 
 .footer-col-title {
-  font-family: var(--font-serif);
-  font-size: 1.3rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 1.3rem;
   position: relative;
